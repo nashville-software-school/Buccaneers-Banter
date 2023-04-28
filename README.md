@@ -1,10 +1,10 @@
-# In Context
+# Buccaneer's Banter
 
 <img src="https://images.fineartamerica.com/images-medium-large/edward-teach-blackbeard-the-pirate-colored-engraving-18th-c-granger.jpg" align="right" height="400px" />
 
 Ahoy there, matey!
 
-Welcome aboard the "In Context", a social platform that'll shiver your timbers! This be a place for all ye scallywags to share yer thoughts, stories, and adventures with other like-minded sea dogs. Here's a brief rundown of the features that be waiting for ye:
+Welcome aboard the "Buccaneer's Banter", a social platform that'll shiver your timbers! This be a place for all ye scallywags to share yer thoughts, stories, and adventures with other like-minded sea dogs. Here's a brief rundown of the features that be waiting for ye:
 
 ## Posts from All Authors
 
@@ -19,4 +19,4 @@ Ye can follow any other authors ye like. Whether ye be interested in their tales
 
 Every author has a profile that tells ye more about them. Ye can see their name, their avatar, their bio, and their recent activity. Ye can also click on their name to see a list of all their posts. This way ye can get to know the other sailors on board.
 
-So, what be ye waiting for? Join the crew and start sharing yer stories on "In Context". We be ready to set sail whenever ye are!
+So, what be ye waiting for? Join the crew and start sharing yer stories on "Buccaneer's Banter". We be ready to set sail whenever ye are!
