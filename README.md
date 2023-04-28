@@ -1,22 +1,38 @@
-# Buccaneer's Banter
+This is a [Next.js](https://nextjs.org/) project bootstrapped with [`create-next-app`](https://github.com/vercel/next.js/tree/canary/packages/create-next-app).
 
-<img src="https://images.fineartamerica.com/images-medium-large/edward-teach-blackbeard-the-pirate-colored-engraving-18th-c-granger.jpg" align="right" height="400px" />
+## Getting Started
 
-Ahoy there, matey!
+First, run the development server:
 
-Welcome aboard the "Buccaneer's Banter", a social platform that'll shiver your timbers! This be a place for all ye scallywags to share yer thoughts, stories, and adventures with other like-minded sea dogs. Here's a brief rundown of the features that be waiting for ye:
+```bash
+npm run dev
+# or
+yarn dev
+# or
+pnpm dev
+```
 
-## Posts from All Authors
+Open [http://localhost:3000](http://localhost:3000) with your browser to see the result.
 
-Ye'll find a list of posts from all authors, no matter if they be swashbucklers, merchants, or landlubbers. The posts will be arranged in a chronological order, with the latest ones appearing first. Ye can scroll through the posts to see what be going on in the community.
+You can start editing the page by modifying `pages/index.js`. The page auto-updates as you edit the file.
 
+[API routes](https://nextjs.org/docs/api-routes/introduction) can be accessed on [http://localhost:3000/api/hello](http://localhost:3000/api/hello). This endpoint can be edited in `pages/api/hello.js`.
 
-## Follow Any Other Authors
+The `pages/api` directory is mapped to `/api/*`. Files in this directory are treated as [API routes](https://nextjs.org/docs/api-routes/introduction) instead of React pages.
 
-Ye can follow any other authors ye like. Whether ye be interested in their tales of treasure, their tips for navigating treacherous waters, or their opinions on the latest news from the ports, ye can keep up with their posts by following them. Ye can also unfollow them at any time if ye change yer mind.
+This project uses [`next/font`](https://nextjs.org/docs/basic-features/font-optimization) to automatically optimize and load Inter, a custom Google Font.
 
-## Author Profile Info
+## Learn More
 
-Every author has a profile that tells ye more about them. Ye can see their name, their avatar, their bio, and their recent activity. Ye can also click on their name to see a list of all their posts. This way ye can get to know the other sailors on board.
+To learn more about Next.js, take a look at the following resources:
 
-So, what be ye waiting for? Join the crew and start sharing yer stories on "Buccaneer's Banter". We be ready to set sail whenever ye are!
+- [Next.js Documentation](https://nextjs.org/docs) - learn about Next.js features and API.
+- [Learn Next.js](https://nextjs.org/learn) - an interactive Next.js tutorial.
+
+You can check out [the Next.js GitHub repository](https://github.com/vercel/next.js/) - your feedback and contributions are welcome!
+
+## Deploy on Vercel
+
+The easiest way to deploy your Next.js app is to use the [Vercel Platform](https://vercel.com/new?utm_medium=default-template&filter=next.js&utm_source=create-next-app&utm_campaign=create-next-app-readme) from the creators of Next.js.
+
+Check out our [Next.js deployment documentation](https://nextjs.org/docs/deployment) for more details.
