@@ -1,0 +1,180 @@
+{
+  "pirates": [
+    {
+      "id": 1,
+      "name": "Blackbeard",
+      "age": 42,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Queen Anne's Revenge",
+      "image_url": "https://photos1.blogger.com/blogger/5580/2256/1600/pirate-profile.0.jpg"
+    },
+    {
+      "id": 2,
+      "name": "Anne Bonny",
+      "age": 29,
+      "nationality": "Irish",
+      "rank": "Pirate",
+      "ship": "Ranger",
+      "image_url": "https://example.com/anne-bonny.jpg"
+    },
+    {
+      "id": 3,
+      "name": "Calico Jack",
+      "age": 37,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "The Revenge",
+      "image_url": "https://example.com/calico-jack.jpg"
+    },
+    {
+      "id": 4,
+      "name": "Captain Kidd",
+      "age": 47,
+      "nationality": "Scottish",
+      "rank": "Captain",
+      "ship": "Adventure Galley",
+      "image_url": "https://example.com/captain-kidd.jpg"
+    },
+    {
+      "id": 5,
+      "name": "Charles Vane",
+      "age": 39,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Ranger",
+      "image_url": "https://example.com/charles-vane.jpg"
+    },
+    {
+      "id": 6,
+      "name": "Edward England",
+      "age": 42,
+      "nationality": "Welsh",
+      "rank": "Captain",
+      "ship": "Pearl",
+      "image_url": "https://example.com/edward-england.jpg"
+    },
+    {
+      "id": 7,
+      "name": "Edward Teach",
+      "age": 38,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Queen Anne's Revenge",
+      "image_url": "https://example.com/edward-teach.jpg"
+    },
+    {
+      "id": 8,
+      "name": "Henry Avery",
+      "age": 41,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "Fancy",
+      "image_url": "https://example.com/henry-avery.jpg"
+    },
+    {
+      "id": 9,
+      "name": "Henry Morgan",
+      "age": 53,
+      "nationality": "Welsh",
+      "rank": "Captain",
+      "ship": "Satisfaction",
+      "image_url": "https://example.com/henry-morgan.jpg"
+    },
+    {
+      "id": 10,
+      "name": "Jack Rackham",
+      "age": 37,
+      "nationality": "English",
+      "rank": "Captain",
+      "ship": "The Revenge",
+      "image_url": "https://example.com/jack-rackham.jpg"
+    },
+    {
+      "id": 50,
+      "name": "Mary Read",
+      "age": 32,
+      "nationality": "English",
+      "rank": "Pirate",
+      "ship": "Ranger",
+      "image_url": "https://example.com/mary-read.jpg"
+    }
+  ],
+  "stories": [
+    {
+      "id": 1,
+      "pirateId": 1,
+      "title": "The Capture of the Nuestra Señora de la Concordia",
+      "content": "We came upon the ship at dawn, the smell of gunpowder in the air...",
+      "date": "1720-05-01"
+    },
+    {
+      "id": 2,
+      "pirateId": 1,
+      "title": "The Blockade of Charleston",
+      "content": "We sailed up to the harbor and unleashed our fury upon the city...",
+      "date": "1718-09-01"
+    },
+    {
+      "id": 3,
+      "pirateId": 1,
+      "title": "The Battle of Ocracoke Inlet",
+      "content": "The Royal Navy thought they could defeat us, but they were sorely mistaken...",
+      "date": "1718-11-22"
+    },
+    {
+      "id": 149,
+      "pirateId": 50,
+      "title": "The Treasure of Madagascar",
+      "content": "We had heard rumors of a great treasure buried on the island of Madagascar...",
+      "date": "1722-10-15"
+    }
+  ],
+  "followers": [
+    {
+      "id": 1,
+      "pirateId": 1,
+      "followerId": 2
+    },
+    {
+      "id": 2,
+      "pirateId": 1,
+      "followerId": 3
+    },
+    {
+      "id": 3,
+      "pirateId": 2,
+      "followerId": 1
+    },
+    {
+      "id": 4,
+      "pirateId": 2,
+      "followerId": 3
+    },
+    {
+      "id": 5,
+      "pirateId": 3,
+      "followerId": 1
+    },
+    {
+      "id": 6,
+      "pirateId": 3,
+      "followerId": 2
+    },
+    {
+      "id": 7,
+      "pirateId": 50,
+      "followerId": 2
+    },
+    {
+      "id": 8,
+      "pirateId": 50,
+      "followerId": 3
+    },
+    {
+      "pirateId": 1,
+      "followerId": 1,
+      "id": 9
+    }
+  ]
+}
