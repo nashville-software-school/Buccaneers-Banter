@@ -1,5 +1,7 @@
 # In Context
 
+<img src="https://images.fineartamerica.com/images-medium-large/edward-teach-blackbeard-the-pirate-colored-engraving-18th-c-granger.jpg" align="right" height="400px" />
+
 Ahoy there, matey!
 
 Welcome aboard the "In Context", a social platform that'll shiver your timbers! This be a place for all ye scallywags to share yer thoughts, stories, and adventures with other like-minded sea dogs. Here's a brief rundown of the features that be waiting for ye:
