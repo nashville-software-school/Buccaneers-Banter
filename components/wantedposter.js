@@ -1,10 +1,10 @@
 import { useState, useEffect } from 'react'
 
 const WantedPoster = ({ currentPirate }) => {
-  const [pirate, setPirate] = useState(null)
+  const [pirate, setPirate] = useState({})
 
   async function fetchPirateProfile() {
-    const response = await fetch(`http://localhost:8088/pirates/${currentPirate}`)
+    const response = await fetch(`http://localhost:8088/pirates/${currentPirate.id}`)
     const data = await response.json()
     setPirate(data)
   }
@@ -19,12 +19,12 @@ const WantedPoster = ({ currentPirate }) => {
 
   return (
     <div>
-      <h2>{pirate.name}'s Profile</h2>
-      <img src={pirate.image_url} alt={pirate.name} />
-      <p>Age: {pirate.age}</p>
-      <p>Nationality: {pirate.nationality}</p>
-      <p>Rank: {pirate.rank}</p>
-      <p>Ship: {pirate.ship}</p>
+      <h2>{pirate?.name}'s Profile</h2>
+      <img src={pirate?.image_url} alt={pirate?.name} />
+      <p>Age: {pirate?.age}</p>
+      <p>Nationality: {pirate?.nationality}</p>
+      <p>Rank: {pirate?.rank}</p>
+      <p>Ship: {pirate?.ship}</p>
     </div>
   )
 }

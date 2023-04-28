@@ -2,7 +2,7 @@ import { Inter } from 'next/font/google'
 import StoryList from '../../components/postlist'
 import ShipMates from '../../components/shipmates'
 import WantedPoster from '../../components/wantedposter'
-import { useState } from 'react'
+import { useEffect, useState } from 'react'
 
 const inter = Inter({ subsets: ['latin'] })
 

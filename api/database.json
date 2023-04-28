@@ -175,6 +175,11 @@
       "pirateId": 1,
       "followerId": 1,
       "id": 9
+    },
+    {
+      "pirateId": 1,
+      "followerId": 1,
+      "id": 10
     }
   ]
 }
