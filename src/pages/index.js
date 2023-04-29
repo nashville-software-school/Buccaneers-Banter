@@ -1,6 +1,6 @@
-import StoryList from '../../components/postlist'
-import ShipMates from '../../components/shipmates'
-import WantedPoster from '../../components/wantedposter'
+import StoryList from '../components/postlist'
+import ShipMates from '../components/shipmates'
+import WantedPoster from '../components/wantedposter'
 import { useEffect, useState } from 'react'
 
 export default function Home() {
@@ -34,10 +34,18 @@ export default function Home() {
 
     return (
         <main className='captainsLog'>
-            <h1>Pirate Profile Page</h1>
-            <WantedPoster currentPirate={currentPirate} />
-            <StoryList currentPirate={currentPirate} />
-            <ShipMates myFavoriteScallywags={myFavoriteScallywags} currentPirate={currentPirate} />
+            <section className="log__left">
+                <div className='log__welcome'>
+                    <h2 className='text-3xl font-sans'>Welcome to Buccaneer's Banter</h2>
+                </div>
+                <StoryList currentPirate={currentPirate} />
+            </section>
+            <section className="log__right">
+                <div>
+                    <WantedPoster currentPirate={currentPirate} />
+                </div>
+                <ShipMates myFavoriteScallywags={myFavoriteScallywags} currentPirate={currentPirate} />
+            </section>
         </main>
     )
 }

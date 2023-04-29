@@ -22,13 +22,15 @@ const WantedPoster = ({ currentPirate }) => {
   }
 
   return (
-    <div>
-      <h2>{pirate?.name}'s Profile</h2>
-      <img src={pirate?.image_url} alt={pirate?.name} className={styles.profile__image} />
-      <p>Age: {pirate?.age}</p>
-      <p>Nationality: {pirate?.nationality}</p>
-      <p>Rank: {pirate?.rank}</p>
-      <p>Ship: {pirate?.ship}</p>
+    <div className={`${styles.card} ${styles.serf}`}>
+        <div className={styles.detail}>
+            <div className={`${styles.user_photo} ${styles.horizontal_center}`}>
+              <img src={pirate?.image_url} alt={pirate?.name} className={styles.user_photo} />
+            </div>
+            <p className={styles.serf__title}>Ahoy, my name be </p>
+            <p className={styles.serf__name}>{pirate.name}</p>
+            <p className={styles.serf__email}>{pirate.ship}</p>
+        </div>
     </div>
   )
 }

@@ -1,7 +1,8 @@
 import { useState, useEffect } from 'react';
-import Login from '../../components/login';
-import Navbar from '../../components/navbar';
+import Login from '../components/login';
+import Navbar from '../components/navbar';
 import '@/styles/globals.css'
+import '@/styles/captainslog.css'
 
 const App = ({ Component, pageProps }) => {
     const [isLoggedIn, setIsLoggedIn] = useState(false);
