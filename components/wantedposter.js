@@ -1,4 +1,6 @@
 import { useState, useEffect } from 'react'
+import styles from './profile.module.css';
+
 
 const WantedPoster = ({ currentPirate }) => {
   const [pirate, setPirate] = useState({})
@@ -22,7 +24,7 @@ const WantedPoster = ({ currentPirate }) => {
   return (
     <div>
       <h2>{pirate?.name}'s Profile</h2>
-      <img src={pirate?.image_url} alt={pirate?.name} />
+      <img src={pirate?.image_url} alt={pirate?.name} className={styles.profile__image} />
       <p>Age: {pirate?.age}</p>
       <p>Nationality: {pirate?.nationality}</p>
       <p>Rank: {pirate?.rank}</p>
