@@ -10,7 +10,9 @@ const WantedPoster = ({ currentPirate }) => {
   }
 
   useEffect(() => {
-    fetchPirateProfile()
+    if (currentPirate.id > 0) {
+      fetchPirateProfile()
+    }
   }, [currentPirate])
 
   if (!pirate) {

@@ -25,7 +25,7 @@
       "nationality": "English",
       "rank": "Captain",
       "ship": "The Revenge",
-      "image_url": "https://example.com/calico-jack.jpg"
+      "image_url": "https://i.pinimg.com/736x/05/29/84/052984797e028fc5526ec780d80e93d7.jpg"
     },
     {
       "id": 4,
@@ -43,7 +43,7 @@
       "nationality": "English",
       "rank": "Captain",
       "ship": "Ranger",
-      "image_url": "https://example.com/charles-vane.jpg"
+      "image_url": "https://avatarfiles.alphacoders.com/217/217786.jpg"
     },
     {
       "id": 6,
@@ -97,7 +97,7 @@
       "nationality": "English",
       "rank": "Pirate",
       "ship": "Ranger",
-      "image_url": "https://example.com/mary-read.jpg"
+      "image_url": "https://i.pinimg.com/originals/b7/c1/f1/b7c1f161dd713ec132b88d5350357030.jpg"
     }
   ],
   "stories": [
