@@ -1,3 +1,5 @@
+import styles from "./post.module.css"
+
 const StoryFooter = ({ story, currentPirate }) => {
 
     const handleFollowClick = async () => {
@@ -20,9 +22,9 @@ const StoryFooter = ({ story, currentPirate }) => {
     }
 
     return (
-        <div>
+        <div className={styles.story__footer}>
             Written by: {story.pirate.name}
-            <button onClick={handleFollowClick}>Follow</button>
+            <button className="bg-cyan-500 hover:bg-cyan-700 py-0 px-2 rounded" onClick={handleFollowClick}>Follow</button>
         </div>
     )
 }

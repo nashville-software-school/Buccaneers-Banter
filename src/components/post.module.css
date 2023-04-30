@@ -1,0 +1,13 @@
+.story {
+    border: 1px solid rgb(78, 138, 191);
+    margin: 0.5rem;
+    padding: 1rem;
+}
+
+.story__content {
+    margin: 1rem 0;
+}
+
+.story__footer {
+    font-size: small;
+}

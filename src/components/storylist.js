@@ -1,5 +1,5 @@
 import { useState, useEffect } from 'react'
-import Story from './post'
+import Story from './story'
 
 const StoryList = ({currentPirate}) => {
     const [stories, setStories] = useState([])
@@ -16,9 +16,9 @@ const StoryList = ({currentPirate}) => {
 
     return (
         <div>
-            <h2>Pirate Stories</h2>
+            <h2 className='text-2xl'>Pirate Stories</h2>
             <ul>
-                {stories.map((story) => <Story  currentPirate={currentPirate} key={`story--${story.id}`} story={story} />)}
+                {stories.map((story) => <Story currentPirate={currentPirate} key={`story--${story.id}`} story={story} />)}
             </ul>
         </div>
     )
