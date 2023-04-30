@@ -36,7 +36,7 @@ export default function Home() {
         <main className='captainsLog'>
             <section className="log__left">
                 <div className='log__welcome'>
-                    <h2 className='text-3xl font-sans'>Welcome to Buccaneer's Banter</h2>
+                    <h2 className='text-5xl font-sans'>Welcome to Buccaneer's Banter</h2>
                 </div>
                 <StoryList currentPirate={currentPirate} />
             </section>

@@ -20,7 +20,7 @@ const Navbar = () => {
             </div>
             <div className="logout">
                 <button
-                    className="bg-red-500 hover:bg-red-700 font-bold py-2 px-4 rounded"
+                    className="bg-red-500 hover:bg-red-700 font-bold py-0.5 px-3 rounded"
                     onClick={handleLogout}
                 >
                     Logout
