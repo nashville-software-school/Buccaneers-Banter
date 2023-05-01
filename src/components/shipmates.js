@@ -1,15 +1,14 @@
-import { useState, useEffect } from 'react'
+import styles from './follow.module.css'
 
 const ShipMates = ({ myFavoriteScallywags }) => {
   return (
-    <div className='log__favorites'>
-      <h2 className='text-xl'>Following Pirates</h2>
+    <div className={styles.favorites}>
+      <h2 className='text-xl bg-cyan-50 py-1 px-2'>Following Pirates</h2>
       <ul>
         {myFavoriteScallywags.map((relationship) => (
-          <li className='text-base' key={relationship.id}>
-            <p>Name: {relationship?.pirate?.name}</p>
-            <p>Rank: {relationship?.pirate?.rank}</p>
-            <p>Ship Name: {relationship?.pirate?.shipName}</p>
+          <li className={`text-base ${styles.favorite}`} key={relationship.id}>
+            <p>{relationship?.pirate?.rank} {relationship?.pirate?.name}</p>
+            <p className='text-sm italic text-slate-400'>{relationship?.pirate?.ship}</p>
           </li>
         ))}
       </ul>

@@ -219,6 +219,16 @@
       "pirateId": 4,
       "followerId": 50,
       "id": 12
+    },
+    {
+      "pirateId": 50,
+      "followerId": 5,
+      "id": 13
+    },
+    {
+      "pirateId": 7,
+      "followerId": 5,
+      "id": 14
     }
   ]
 }
