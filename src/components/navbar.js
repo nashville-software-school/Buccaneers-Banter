@@ -1,14 +1,13 @@
 import Link from 'next/link'
 import { useRouter } from 'next/router'
 
-const Navbar = () => {
+const Navbar = ({ setIsLoggedIn }) => {
     const router = useRouter()
 
     const handleLogout = () => {
         // remove the user id from local storage or session storage
         localStorage.removeItem('pirateId')
-        // redirect to the login page
-        router.push('/logout')
+        setIsLoggedIn(false)
     }
 
     return (
