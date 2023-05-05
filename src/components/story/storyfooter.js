@@ -1,4 +1,4 @@
-import styles from "./post.module.css"
+import styles from "./story.module.css"
 
 const StoryFooter = ({ story, currentPirate }) => {
 

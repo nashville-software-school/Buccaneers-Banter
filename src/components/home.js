@@ -1,4 +1,4 @@
-import { useState } from 'react'
+import { useState, useEffect } from 'react'
 import Login from '../components/login'
 import Navbar from '../components/navbar'
 import Dashboard from './dashboard'
@@ -11,7 +11,7 @@ const Home = () => {
     }
 
     return <>
-        <Navbar setIsLoggedIn={setIsLoggedIn} />
+        <Navbar setIsLoggedIn={setIsLoggedIn}/>
         <Dashboard />
     </>
 }

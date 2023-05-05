@@ -4,10 +4,12 @@ const Home = dynamic(() => import('../components/home'), {
     ssr: false
 });
 
-export default function Index() {
+const Index = () => {
     return (
         <div>
             <Home />
         </div>
     )
 }
+
+export default Index

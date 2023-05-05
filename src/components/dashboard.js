@@ -1,6 +1,6 @@
-import StoryList from '../components/storylist'
+import StoryList from '../components/story/storylist'
 import ShipMates from '../components/shipmates'
-import WantedPoster from '../components/wantedposter'
+import WantedPoster from '../components/profile/wantedposter'
 import { useEffect, useState } from 'react'
 
 export default function Dashboard() {

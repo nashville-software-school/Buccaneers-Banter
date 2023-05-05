@@ -1,6 +1,6 @@
 import StoryContent from "./storycontent"
 import StoryFooter from "./storyfooter"
-import styles from "./post.module.css"
+import styles from "./story.module.css"
 
 const Story = ({ story, currentPirate }) => (
     <li key={story.id} className={styles.story}>
