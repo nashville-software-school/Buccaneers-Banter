@@ -1,7 +1,7 @@
 import { useState, useEffect } from 'react'
 import Story from './story'
 
-const StoryList = ({currentPirate}) => {
+const StoryList = () => {
     const [stories, setStories] = useState([])
 
     const fetchStories = async () => {
@@ -18,7 +18,7 @@ const StoryList = ({currentPirate}) => {
         <div>
             <h2 className='text-2xl'>Pirate Stories</h2>
             <ul>
-                {stories.map((story) => <Story currentPirate={currentPirate} key={`story--${story.id}`} story={story} />)}
+                {stories.map((story) => <Story key={`story--${story.id}`} story={story} />)}
             </ul>
         </div>
     )
