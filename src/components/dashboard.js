@@ -1,13 +1,11 @@
 import StoryList from '../components/story/storylist'
 import ShipMates from '../components/shipmates'
 import WantedPoster from '../components/profile/wantedposter'
-import { useContext, useEffect, useState } from 'react'
-import { PirateContext } from './providers/PirateProvider'
+import { useEffect, useState } from 'react'
 
 export default function Dashboard() {
+    const [currentPirate, setCurrentPirate] = useState({ id: 0 })
     const [myFavoriteScallywags, setScallyWags] = useState([])
-
-    const { setCurrentPirate } = useContext(PirateContext)
 
     const getPirate = (id) => {
         fetch(`http://localhost:8088/pirates/${id}`)
@@ -46,7 +44,7 @@ export default function Dashboard() {
                 <div>
                     <WantedPoster currentPirate={currentPirate} />
                 </div>
-                <ShipMates myFavoriteScallywags={myFavoriteScallywags} />
+                <ShipMates myFavoriteScallywags={myFavoriteScallywags} currentPirate={currentPirate} />
             </section>
         </main>
     )
